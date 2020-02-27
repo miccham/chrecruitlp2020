@@ -1,18 +1,18 @@
 $default: #f9f9ff;
-$primary: $theme-color2;
-$success: #4cd3e3;
-$info: #38a4ff;
-$warning: #f4e700;
-$danger: #f44a40;
+$primary: #037ef3;
+$success: #30c39e;
+$info: #0a8ea0;
+$warning: #ffc845;
+$danger: #f85a40;
 $link: #f9f9ff;
-$disable: (#222222, .3);
+$disable: (#52565e, .3);
 $primary-color: #037ef3;
 $primary-color1: #037ef3;
 $title-color: #415094;
 $text-color: #828bb2;
 $white: #fff;
 $offwhite: #f9f9ff;
-$black: #000;
+$black: #52565e;
 
 //    Mixins
 @mixin transition($args: all 0.3s ease 0s) {
