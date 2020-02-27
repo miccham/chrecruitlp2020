@@ -1,38 +1,42 @@
 .boxed-btn {
-	background: #fff;
-	color: #131313;
-	display: inline-block;
-	padding: 14px 44px;
-	font-family: $font1;
-	font-size: 16px;
+    background: #fff;
+    color: #131313;
+    display: inline-block;
+    padding: 14px 44px;
+    font-family: $font1;
+    font-size: 16px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #615CFD;
+    border: 1px solid #037ef3;
     // width: 180px;
     text-align: center;
-    color: #615CFD !important;
+    color: #037ef3 !important;
     text-transform: uppercase;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: #615CFD;
         color: #fff !important;
         border: 1px solid #615CFD;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
+
 .boxed-btn3 {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
     background: #615CFD;
-	color: #fff;
-	display: inline-block;
-	padding: 12px 33px;
-	font-family: $font1;
-	font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 33px;
+    font-family: $font1;
+    font-size: 16px;
     font-weight: 500;
     border: 0;
     border: 1px solid transparent;
@@ -42,26 +46,30 @@
     text-transform: capitalize;
     @include transition(.5s);
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         border: 1px solid #615CFD;
         color: #615CFD !important;
-        background: transparent ;
+        background: transparent;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
+
 .boxed-btn4 {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
     background: #615CFD;
-	color: #fff;
-	display: inline-block;
-	padding: 14px 27px;
-	font-family: $font1;
-	font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 27px;
+    font-family: $font1;
+    font-size: 16px;
     font-weight: 500;
     border: 0;
     // border: 1px solid transparent;
@@ -73,25 +81,28 @@
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
-    &:hover{
+
+    &:hover {
         background: #615CFD;
         color: #fff !important;
         // border: 1px solid #28AE61;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
 
 .boxed-btn3-white {
-	color: #fff;
-	display: inline-block;
+    color: #fff;
+    display: inline-block;
     padding: 13px 27px;
-	font-family: $font1;
-	font-size: 14px;
+    font-family: $font1;
+    font-size: 14px;
     font-weight: 400;
     border: 0;
     border: 1px solid #fff;
@@ -103,28 +114,32 @@
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
-    &:hover{
+
+    &:hover {
         background: #28AE61;
         color: #fff !important;
         border: 1px solid transparent;
     }
-    i{
+
+    i {
         margin-right: 2px;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
 
 .boxed-btn3-green-2 {
-	color: #615CFD !important;
-	display: inline-block;
+    color: #615CFD !important;
+    display: inline-block;
     padding: 14px 31px;
-	font-family: $font1;
-	font-size: 14px;
+    font-family: $font1;
+    font-size: 14px;
     font-weight: 400;
     border: 0;
     border: 1px solid #615CFD;
@@ -135,39 +150,46 @@
     @include transition(.5s);
     cursor: pointer;
     letter-spacing: 2px;
-    &:hover{
+
+    &:hover {
         background: #615CFD;
         color: #fff !important;
         border: 1px solid transparent;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
+
 .boxed-btn2 {
-	background: transparent;
-	color: #fff;
-	display: inline-block;
-	padding: 18px 24px;
-	font-family: $font1;
-	font-size: 14px;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 24px;
+    font-family: $font1;
+    font-size: 14px;
     font-weight: 400;
     border: 0;
     border: 1px solid #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
-    &:hover{
+
+    &:hover {
         background: #fff;
         color: #131313 !important;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
-.line-button{
+
+.line-button {
     color: #919191;
     font-size: 16px;
     font-weight: 400;
@@ -175,7 +197,8 @@
     position: relative;
     padding-right: 5px;
     padding-bottom: 2px;
-    &::before{
+
+    &::before {
         position: absolute;
         content: "";
         background: #919191;
@@ -184,14 +207,17 @@
         bottom: 0;
         left: 0;
     }
-    &:hover{
+
+    &:hover {
         color: #009DFF;
     }
-    &:hover::before{
+
+    &:hover::before {
         background: #009DFF;
     }
 }
-.line_btn{
+
+.line_btn {
     display: inline-block;
     font-size: 15px;
     color: #615CFD;
@@ -199,7 +225,8 @@
     text-transform: capitalize;
     padding: 13px 34px;
     font-weight: 600;
-    &:hover{
+
+    &:hover {
         background: #615CFD;
         color: #fff;
     }
