@@ -87,11 +87,11 @@
 
     .socail_links {
         // margin-top: 47px;
-        text-align: right;
+        text-align: center;
 
         @media #{$mobile_device} {
             // margin-top: 30px;
-            text-align: left;
+            text-align: center;
             margin-top: 30px;
         }
 
