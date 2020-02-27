@@ -1,12 +1,11 @@
-
-@import 'varriable.scss';
-@import 'mixins.scss';
+@import '_varriable.scss';
+@import '_mixins.scss';
 @import 'extend';
-@import 'responsive.scss';
+@import '_responsive.scss';
 @import 'theme-default.scss';
-@import 'btn';
-@import 'section_title';
-@import 'slick-nav.scss';
+@import '_btn.scss';
+@import '_section_title.scss';
+@import '_slick-nav.scss';
 
 
 
@@ -60,6 +59,8 @@
 
 @import 'portfolio_details';
 
+@import '_powerpoint.scss';
+
 
 // other pages default
 
@@ -67,7 +68,7 @@
 @import 'contact';
 
 // elements
-@import 'elements.scss';
+@import '_elements.scss';
 
 // blog
 @import 'blog';
@@ -75,4 +76,3 @@
 
 // blog part
 @import 'blog_part';
-

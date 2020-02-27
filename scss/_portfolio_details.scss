@@ -1,32 +1,38 @@
-.portfolio_details_banner{
+.portfolio_details_banner {
     background: #1F1F1F;
     padding-top: 220px;
     padding-bottom: 470px;
-    @media #{$mobile_device}{
+
+    @media #{$mobile_device} {
         padding: 100px 0;
     }
-    .details_info{
-        h3{
+
+    .details_info {
+        h3 {
             font-size: 78px;
             font-weight: 400;
             color: #fff;
             text-align: center;
             margin-bottom: 62px;
+
             @media #{$mobile_device} {
                 font-size: 30px;
                 margin-bottom: 30px;
             }
         }
-        .details_links{
+
+        .details_links {
             @media #{$mobile_device} {
                 display: block !important;
                 text-align: center;
             }
-            .single_details{
-                @media #{$mobile_device}{
+
+            .single_details {
+                @media #{$mobile_device} {
                     margin-bottom: 30px;
                 }
-                span{
+
+                span {
                     color: #C9C9C9;
                     font-size: 12px;
                     font-weight: 400;
@@ -34,26 +40,30 @@
                     margin-bottom: 9px;
                     font-family: $font2;
                 }
-                h4{
+
+                h4 {
                     font-family: $font2;
                     font-size: 16px;
                     font-weight: 400;
                     color: #fff;
                 }
-                .social_links{
-                    ul{
-                        li{
+
+                .social_links {
+                    ul {
+                        li {
                             display: inline-block;
                             margin-right: 21px;
-                            @media #{$mobile_device}{
+
+                            @media #{$mobile_device} {
                                 margin: 0 5px;
                             }
-                            a{
+
+                            a {
                                 color: #fff;
                                 font-size: 16px;
 
-                                &:hover{
-                                    color: #615CFD;
+                                &:hover {
+                                    color: #037ef3;
                                 }
                             }
                         }
@@ -64,35 +74,41 @@
     }
 }
 
-.portfolio_details_wrap{
+.portfolio_details_wrap {
     padding-bottom: 130px;
     position: relative;
     margin-top: -380px;
-    @media #{$mobile_device}{
+
+    @media #{$mobile_device} {
         padding-bottom: 60px;
     }
+
     @media #{$mobile_device} {
         margin-top: 60px;
     }
-    .banner{
-        img{
+
+    .banner {
+        img {
             width: 100%;
         }
     }
-    .details_text{
+
+    .details_text {
         margin-bottom: 70px;
         margin-top: 80px;
+
         @media #{$mobile_device} {
             margin: 30px 0;
         }
-        p{
 
-        }
+        p {}
     }
-    .thumbs{
-        .single_thumb{
+
+    .thumbs {
+        .single_thumb {
             margin-bottom: 30px;
-            img{
+
+            img {
                 width: 100%;
             }
         }

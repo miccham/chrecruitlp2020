@@ -1,60 +1,74 @@
-.header-area{
+.header-area {
     position: absolute;
     left: 0;
     right: 0;
     width: 100%;
     top: 0;
     z-index: 99;
+
     @media #{$mobile_device} {
         padding-top: 0;
     }
+
     @media #{$tablet_device} {
         padding-top: 0;
     }
-    .main-header-area{
+
+    .main-header-area {
         padding: 0 200px;
+
         @media #{$mobile_device} {
             padding: 10px 10px;
             background: #1F1F1F;
         }
+
         @media #{$tablet_device} {
             padding: 10px 10px;
             background: #1F1F1F;
         }
+
         @media #{$mid_device} {
             padding: 0 30px;
         }
+
         @media #{$large_device} {
             padding: 0 70px;
         }
-        .logo-img{
+
+        .logo-img {
             text-align: left;
+            padding: 20px 10px;
+
+
             @media #{$mobile_device} {
                 text-align: left;
             }
+
             @media #{$tablet_device} {
                 // padding-left: 20px;
                 text-align: left;
             }
+
             @media #{$mid_device} {
                 // padding-left: 20px;
                 text-align: left;
             }
         }
-        .main-menu{
+
+        .main-menu {
             text-align: center;
-            ul{
-                li{
+
+            ul {
+                li {
                     display: inline-block;
                     position: relative;
                     margin: 0 23px;
-                    @media #{$mid_device} {
-                        
-                    }
-                    @media #{$large_device} {
-                        
-                    }
-                    a{
+
+                    @media #{$mid_device} {}
+
+                    @media #{$large_device} {}
+
+                    a {
                         color: #fff;
                         font-size: 16px;
                         text-transform: capitalize;
@@ -63,34 +77,42 @@
                         padding: 40px 0;
                         font-family: $font1;
                         position: relative;
-                        
+
                         @media #{$mid_device} {
                             // padding: 41px 0px 10px 0px;
                             font-size: 15px;
                         }
+
                         @media #{$large_device} {
                             // padding: 41px 0px 10px 0px;
                             font-size: 15px;
                         }
-                        i{
+
+                        i {
                             font-size: 9px;
-                            @media #{$mobile_device}{
+
+                            @media #{$mobile_device} {
                                 display: none !important;
                             }
-                            @media #{$tablet_device}{
-                                display: none !important;;
+
+                            @media #{$tablet_device} {
+                                display: none !important;
+                                ;
                             }
                         }
-                        &.active{
-                            &::before{
+
+                        &.active {
+                            &::before {
                                 opacity: 1;
                                 transform: scaleX(1);
                             }
                         }
-                        &:hover{
+
+                        &:hover {
                             color: #615CFD;
                         }
                     }
+
                     .submenu {
                         position: absolute;
                         left: 0;
@@ -98,44 +120,52 @@
                         background: #fff;
                         width: 200px;
                         z-index: 2;
-                        box-shadow: 0 0  10px rgba(0,0,0,.02);
+                        box-shadow: 0 0 10px rgba(0, 0, 0, .02);
                         opacity: 0;
                         visibility: hidden;
                         text-align: left;
                         @include transition(.6s);
-                        li{
+
+                        li {
                             display: block;
                             margin: 0;
-                            a{
+
+                            a {
                                 padding: 10px 15px;
                                 position: inherit;
                                 @include transition(.3s);
                                 display: block;
                                 color: #000;
-                                &::before{
+
+                                &::before {
                                     display: none;
                                 }
                             }
-                            &:hover a{
+
+                            &:hover a {
                                 color: #615CFD;
                             }
                         }
                     }
-                    &:hover > .submenu{
+
+                    &:hover>.submenu {
                         opacity: 1;
                         visibility: visible;
                         top: 100%;
                     }
-                    &:hover > a::before{
+
+                    &:hover>a::before {
                         opacity: 1;
                         transform: scaleX(1);
                     }
+
                     &:first-child a {
                         padding-left: 0;
                     }
                 }
             }
         }
+
         &.sticky {
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             position: fixed;
@@ -150,6 +180,7 @@
             box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
             // padding: 0px 150px;
             background: #1F1F1F;
+
             // @media #{$mobile_device} {
             //     padding: 10px 10px;
             // }
@@ -162,28 +193,32 @@
             // @media #{$large_device} {
             //     padding: 0px 20px
             // }
-            .main-menu{
+            .main-menu {
                 padding: 0;
-                ul{
-                    li{
-                        a{
+
+                ul {
+                    li {
+                        a {
                             color: #fff;
                         }
                     }
                 }
             }
-            .log_chat_area{
-                .say_hi{
+
+            .log_chat_area {
+                .say_hi {
                     color: #fff;
                 }
             }
         }
-        
-        
+
+
     }
-    .log_chat_area{
+
+    .log_chat_area {
         @include justify-content(flex-end);
-        .say_hi{
+
+        .say_hi {
             font-size: 16px;
             color: #fff;
             font-weight: 600;
@@ -192,7 +227,8 @@
             padding: 0 0 12px 0;
             margin-right: 0px;
             font-family: $font1;
-            &:before{
+
+            &:before {
                 position: absolute;
                 content: "";
                 height: 3px;
@@ -200,7 +236,7 @@
                 background: #615CFD;
                 bottom: 0;
                 left: 0;
-                
+
             }
         }
     }

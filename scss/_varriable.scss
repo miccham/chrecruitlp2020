@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
 // fonts
-$font1:  'Muli', sans-serif;
-$font2:  'Roboto', sans-serif;
+$font1: 'Muli',
+sans-serif;
+$font2: 'Roboto',
+sans-serif;
 // fonts-size
 
 $heading-color:#1F1F1F;
@@ -39,7 +41,7 @@ $big_screen:'only screen and (min-width: 1200px) and (max-width: 1440px)';
 $extra_big_screen: 'only screen and (min-width: 1200px) and (max-width: 3640px)';
 
 // ,,,,,,,,,,,
-$btn_bg: #615CFD;
+$btn_bg: #037ef3;
 $btn_hover: #f5790b;
 $section_bg: #f7f7f7;
 $section_bg_1: #454545;
