@@ -2736,6 +2736,12 @@ h3 {
 .image_powerpoint {
   background-color: #cbe5fe;
 }
+.image_powerpoint .single_service {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
 
 /*=================== contact banner start ====================*/
 .dropdown .dropdown-menu {
